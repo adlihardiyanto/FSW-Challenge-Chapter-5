@@ -13,14 +13,13 @@ app.use(express.static(__dirname + '/public'));
 
 const readJson = fs.readFileSync('user.json');
 const users = JSON.parse(readJson);
-console.log(users)
 
 app.get('/', (req, res) => {
   res.render('index');
 });
 
 app.get('/users', (req, res) => {
-  res.json(users);
+  res.send({username:users[0].username, password:'******'});
 });
 
 app.get('/login', (req, res) => {
