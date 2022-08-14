@@ -2,7 +2,7 @@ const express = require('express');
 const ejs = require('ejs');
 const fs = require('fs');
 const app = express();
-const port = 4000;
+const port = process.env.PORT||4000;
 
 
 app.use(express.urlencoded({ extended: false }));
