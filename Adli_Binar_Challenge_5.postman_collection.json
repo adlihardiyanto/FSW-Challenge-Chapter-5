@@ -1,0 +1,18 @@
+{
+	"info": {
+		"_postman_id": "c01351a0-3776-4b51-9a7e-6a62b385924c",
+		"name": "Adli_Binar_Challenge_5",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22680794"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
